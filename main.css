@@ -235,6 +235,14 @@ p{
 .main.active {
   padding-left: 30%;
 }
+.Square{ 
+  position: relative;
+  width: 100%;
+  height: 70%;
+  background-color: var(--cont-color);
+  border-radius: 10px;
+  align-content:left;
+}
 P1{  
      position:absolute;
      font-family:Playfair;
@@ -244,7 +252,7 @@ P1{
      margin-right:90px;
      width:300px;
      text-align:left;
-     padding-left:0;
+     margin-left:0;
 }
 
 P{
@@ -253,7 +261,7 @@ P{
      font-size:70px;
      color: black;
      margin-top:90px;
-     margin-left:20px;
+     margin-left:5px;
      width:300px;
      text-align:left;
 }
