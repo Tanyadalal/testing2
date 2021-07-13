@@ -235,10 +235,10 @@ p{
 .main.active {
   padding-left: 30%;
 }
-P1{  position: absolute;
+P1{  position: relative;
      font-family:Playfair;
      font-size:20px;
-     color: white;
+     color: black;
      left:5%;
      top:5%;
 }
