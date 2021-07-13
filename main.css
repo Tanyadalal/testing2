@@ -246,19 +246,19 @@ P1{
   font-size: 25px;
   color: var(--text-color);
   font-family: Playfair;
-  padding-right:50%;
+  padding-right:30%;
   Background-color:white;
 
 p{
-  font-family: Moontime;
-  color: var(--text2-color);
-  width:70px;
+  width:60px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 50px;
-  padding-right:50%;
+  font-size: 25px;
+  color: var(--text-color);
+  font-family: Moontime;
+  padding-right:30%;
   Background-color:white;
 }
 .animated_text{
