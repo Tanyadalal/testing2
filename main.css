@@ -235,6 +235,15 @@ p{
 .main.active {
   padding-left: 30%;
 }
+. Square{
+   
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      height: 70%;
+      background-color: var(--cont-color);
+      border-radius: 10px;
+     }
 P1{  
      position:relative;
      font-family:Playfair;
