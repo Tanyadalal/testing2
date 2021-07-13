@@ -247,7 +247,7 @@ p{
 .para{  
      
      font-family:Playfair;
-     font-size:15px;
+     font-size:17px;
      color: var(--text2-color);
      margin-right: 10%;
      margin-left:10%;
@@ -264,11 +264,12 @@ p{
      margin-right: 10%;
      margin-left:10%;
      margin-top:30%;
+     padding-left:20%;
      display: flex;
      align-items: center;
      justify-content: center;
 }
-animated_text{
+.animated_text{
   position: absolute;
   font-family: Playfair;
   padding-left: 30%;
