@@ -242,9 +242,10 @@ P1{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 70%;
+  font-size: 200%;
   color: var(--text-color);
   font-family: Playfair;
+  padding-right:50%;
 
 p{
   position:relative;
