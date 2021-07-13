@@ -238,21 +238,23 @@ p{
   padding-left: 30%;
 }
 P1{
+  Padding-right:20%;
   font-family: Playfair;
   margin-top: 5%;
   font-size: 17px;
   color: var(--text2-color);
 p{
   position:absolute;
+  Padding-right: 10%
   font-family: Moontime;
   color: var(--text2-color);
-  font-size: 80px;
+  font-size: 30px;
   padding-top: 30%;
 }
 .animated_text{
   position: absolute;
   font-family: Playfair;
-  padding-left: 10%;
+  padding-right: 5%;
   margin-top: 5%;
   font-size: 15px;
   color: var(--text2-color);
