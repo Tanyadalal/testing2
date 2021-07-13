@@ -247,14 +247,16 @@ P1{
   color: var(--text-color);
   font-family: Playfair;
   padding-right:50%;
+  Background-color:white;
 
 p{
   position:relative;
   Margin-right: 20%;
   font-family: Moontime;
   color: var(--text2-color);
-  font-size: 15px;
+  font-size: 10px;
   padding-top: 30%;
+  Background-color:white;
 }
 .animated_text{
   position: relative;
