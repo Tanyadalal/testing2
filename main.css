@@ -237,4 +237,25 @@ p{
 .main.active {
   padding-left: 30%;
 }
+.square{
+            position: absolute; 
+            width:fit-content; 
+            height:fit-content; 
+            left: 0; 
+            top: 10%; 
+            background-color: var(--cont-color);
+            border-radius: 10px;
+}
+P1{
+     font-family:Playfair;
+     font-size:15px;
+     color: var(--text2-color);
+}
+}
+P{
+    font-family:Moontime;
+    font-size:20px;
+    color: var(--text2-color);
+}
+
 }
