@@ -238,11 +238,12 @@ p{
 P1{  position: relative;
      font-family:Playfair;
      font-size:20px;
-     color: black;
+     color: white;
      left:5%;
      top:5%;
+     width:50px;
 }
-}
+
 P{
     font-family:Moontime;
     font-size:20px;
