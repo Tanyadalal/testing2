@@ -237,36 +237,4 @@ p{
 .main.active {
   padding-left: 30%;
 }
-P1{
-  width:60px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-size: 25px;
-  color: var(--text-color);
-  font-family: Playfair;
-  padding-right:30%;
-  Background-color:white;
-
-p{
-  width:60px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-size: 25px;
-  color: var(--text-color);
-  font-family: Moontime;
-  padding-right:30%;
-  Background-color:white;
-}
-.animated_text{
-  position: relative;
-  font-family: Playfair;
-  Margin-right: 50%;
-  margin-top: 5%;
-  font-size: 10px;
-  color: var(--text2-color);
-}
 }
