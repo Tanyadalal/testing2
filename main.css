@@ -238,24 +238,27 @@ p{
   padding-left: 30%;
 }
 P1{
-  width:50px;
+  width:60px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 10px;
+  font-size: 25px;
   color: var(--text-color);
   font-family: Playfair;
   padding-right:50%;
   Background-color:white;
 
 p{
-  position:relative;
-  Margin-right: 20%;
   font-family: Moontime;
   color: var(--text2-color);
-  font-size: 10px;
-  padding-top: 30%;
+  width:70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  padding-right:50%;
   Background-color:white;
 }
 .animated_text{
