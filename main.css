@@ -235,14 +235,15 @@ p{
 .main.active {
   padding-left: 30%;
 }
-P1{  position: fixed;
+P1{  
+     position:absolute;
      font-family:Playfair;
      font-size:17px;
-     color: white;
-     top:20;
-     right:30;
+     color: black;
+     margin-top:30px;
+     margin-left:30px;
      width:300px;
-     text-align:center;
+     text-align:left;
 }
 
 P{
