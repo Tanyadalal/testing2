@@ -238,6 +238,7 @@ p{
   padding-left: 30%;
 }
 P1{
+  Position:absolute;
   Padding-right:20%;
   font-family: Playfair;
   margin-top: 5%;
@@ -245,7 +246,7 @@ P1{
   color: var(--text2-color);
 p{
   position:absolute;
-  Padding-right: 10%
+  Padding-right: 10%;
   font-family: Moontime;
   color: var(--text2-color);
   font-size: 30px;
