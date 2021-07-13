@@ -244,7 +244,7 @@ p{
       background-color: var(--cont-color);
       border-radius: 10px;
      }
-para{  
+.para{  
      
      font-family:Playfair;
      font-size:17px;
@@ -255,7 +255,7 @@ para{
      justify-content: center;
 }
 
-para2{
+.para2{
     font-family:Moontime;
      font-size:30px;
      color: black;
