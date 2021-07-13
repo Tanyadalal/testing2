@@ -238,24 +238,26 @@ p{
   padding-left: 30%;
 }
 P1{
-  Position:absolute;
-  Margin-right:20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 70%;
+  color: var(--text-color);
   font-family: Playfair;
-  margin-top: 5%;
-  font-size: 17px;
-  color: var(--text2-color);
+
 p{
-  position:absolute;
-  Margin-right: 10%;
+  position:relative;
+  Margin-right: 20%;
   font-family: Moontime;
   color: var(--text2-color);
-  font-size: 100%;
+  font-size: 15px;
   padding-top: 30%;
 }
 .animated_text{
-  position: absolute;
+  position: relative;
   font-family: Playfair;
-  Margin-right: 5%;
+  Margin-right: 50%;
   margin-top: 5%;
   font-size: 10px;
   color: var(--text2-color);
