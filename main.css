@@ -244,27 +244,25 @@ p{
       background-color: var(--cont-color);
       border-radius: 10px;
      }
-P1{  
-     position:relative;
+para{  
+     
      font-family:Playfair;
      font-size:17px;
      color: black;
-     margin-top:30px;
-     margin-right:90px;
-     width:90px;
-     align-content:centre;
-     margin-left:0;
+     margin-right: 10%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
 }
 
-P{
-    position:relative;
-     font-family:Moontime;
-     font-size:70px;
-     color: white;
-     margin-top:90px;
-     margin-left:5px;
-     width:300px;
-     text-align:left;
+para2{
+    font-family:Moontime;
+     font-size:30px;
+     color: black;
+     margin-right: 10%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
 }
 
 }
