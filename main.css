@@ -244,7 +244,7 @@ p{
   align-content:left;
 }
 P1{  
-     position:absolute;
+     position:relative;
      font-family:Playfair;
      font-size:17px;
      color: black;
