@@ -182,8 +182,6 @@ opacity: 1;
 .square{
   position: relative;
   width: 100%;
-  justify-content: center;
-  align-items: center;
   height: 70%;
   background-color: var(--cont-color);
   border-radius: 10px;
@@ -240,7 +238,7 @@ p{
 P1{  position: absolute;
      font-family:Playfair;
      font-size:20px;
-     color: var(--text2-color);
+     color: white;
      left:5%;
      top:5%;
 }
