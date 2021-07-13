@@ -247,9 +247,14 @@ P1{
 }
 
 P{
-    font-family:Moontime;
-    font-size:20px;
-    color: var(--text2-color);
+    position:absolute;
+     font-family:Moontime;
+     font-size:25px;
+     color: black;
+     margin-top:60px;
+     margin-left:30px;
+     width:300px;
+     text-align:left;
 }
 
 }
