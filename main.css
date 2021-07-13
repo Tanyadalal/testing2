@@ -237,4 +237,26 @@ p{
 .main.active {
   padding-left: 30%;
 }
+P1{
+  position: absolute;
+  font-family: Playfair;
+  margin-top: 5%;
+  font-size: 15px;
+  color: var(--text2-color);
+  transform: translateX(20%);
+}
+p{
+  font-family: Moontime;
+  color: var(--text2-color);
+  font-size: 80px;
+  padding-top: 10%;
+}
+.animated_text{
+  position: absolute;
+  font-family: Playfair;
+  padding-left: 20%;
+  margin-top: 5%;
+  font-size: 20px;
+  color: var(--text2-color);
+}
 }
