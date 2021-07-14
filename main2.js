@@ -4,7 +4,7 @@ const LETTER_DURATION = 100;
 const noop = () => {};
 
 function onLoad() {
-  const text = ["NOTHING can describe me better than", "- A little bit of nerdy and a whole lot of bibliophile"];
+  const text = ["Nothing can describe me better than", "- A little bit of nerdy and a whole lot of bibliophile"];
 
   write(text[0], () => {
     wait(() => {
