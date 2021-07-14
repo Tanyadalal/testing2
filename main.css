@@ -248,7 +248,7 @@ opacity: 1;
 .para {  
  font-family:Playfair;
  font-size:17px;
- color: black;
+ color: var(--text2-color);
  margin-right: 10%;
  margin-left:5%;
  padding-top:10%;
@@ -265,7 +265,7 @@ font-family:Moontime;
  margin-right: 10%;
  margin-left:10%;
  padding-left:15%;
- padding-top:30%;
+ padding-top:50%;
  display: flex;
  align-items: center;
  justify-content: center;
