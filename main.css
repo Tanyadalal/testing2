@@ -186,7 +186,7 @@ opacity: 1;
   background-color: var(--cont-color);
   border-radius: 10px;
 }
-P1{
+.para{
   position: absolute;
   font-family: Playfair;
   padding-left: 20%;
@@ -195,7 +195,7 @@ P1{
   color: var(--text2-color);
   transform: translateX(20%);
 }
-p{
+.Para2{
   font-family: Moontime;
   color: var(--text2-color);
   font-size: 200px;
@@ -235,7 +235,7 @@ p{
 .main.active {
   padding-left: 30%;
 }
-. Square{
+.Square{
    
       display: flex;
       justify-content: center;
