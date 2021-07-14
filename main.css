@@ -204,7 +204,7 @@ opacity: 1;
   padding-left: 20%;
   padding-top: 10%;
 }
-.animated_text{
+.text{
   position: absolute;
   font-family: Playfair;
   padding-left: 30%;
@@ -270,7 +270,7 @@ font-family:Moontime;
  align-items: center;
  justify-content: center;
 }
-.animated_text{
+.text{
 position: absolute;
 font-family: Playfair;
 padding-left: 30%;
