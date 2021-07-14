@@ -182,6 +182,8 @@ opacity: 1;
 .square{
   position: relative;
   width: 100%;
+  justify-content: center;
+  align-items: center;
   height: 70%;
   background-color: var(--cont-color);
   border-radius: 10px;
@@ -189,13 +191,13 @@ opacity: 1;
 .para{
   position: absolute;
   font-family: Playfair;
-  padding-left: 20%;
+  padding-left: 19%;
   margin-top: 5%;
-  font-size: 25px;
+  font-size: 22px;
   color: var(--text2-color);
   transform: translateX(20%);
 }
-.Para2{
+.para2{
   font-family: Moontime;
   color: var(--text2-color);
   font-size: 200px;
@@ -235,47 +237,45 @@ opacity: 1;
 .main.active {
   padding-left: 30%;
 }
-.Square{
-   
-      display: flex;
-      justify-content: center;
-      width: 100%;
-      height: 70%;
-      background-color: var(--cont-color);
-      border-radius: 10px;
-     }
-.para{  
-     
-     font-family:Playfair;
-     font-size:17px;
-     color: var(--text2-color);
-     margin-right: 10%;
-     margin-left:10%;
-     padding-top:20%;
-     padding-left:17%;
-     display: flex;
-     align-items: center;
-     justify-content: center;
+.Square {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 70%;
+  background-color: var(--cont-color);
+  border-radius: 10px;
+ }
+.para {  
+ font-family:Playfair;
+ font-size:17px;
+ color: var(--text2-color);
+ margin-right: 10%;
+ margin-left:10%;
+ padding-top:20%;
+ padding-left:17%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
 }
 
-.para2{
-    font-family:Moontime;
-     font-size:95px;
-     color: var(--text2-color);
-     margin-right: 10%;
-     margin-left:10%;
-     margin-top:10%;
-     padding-left:15%;
-     display: flex;
-     align-items: center;
-     justify-content: center;
+.para2 {
+font-family:Moontime;
+ font-size:95px;
+ color: var(--text2-color);
+ margin-right: 10%;
+ margin-left:10%;
+ margin-top:10%;
+ padding-left:15%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
 }
 .animated_text{
-  position: absolute;
-  font-family: Playfair;
-  padding-left: 30%;
-  margin-top: 5%;
-  font-size: 15px;
-  color: var(--text2-color);
+position: absolute;
+font-family: Playfair;
+padding-left: 30%;
+margin-top: 5%;
+font-size: 15px;
+color: var(--text2-color);
 }
 }
