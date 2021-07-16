@@ -272,7 +272,7 @@ box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
 transition: 3s;
 }
 
-.animated_card1:hover{
+.red{
   position: absolute;
   width: 25%;
   height: 90%;
@@ -285,7 +285,7 @@ transition: 3s;
   transition: 3s;
 }
 
-.animated_card2:hover{
+.red2{
   position: absolute;
 width: 25%;
 height: 90%;
@@ -398,7 +398,7 @@ color: var(--text2-color);
   width: 50%;
   height: 10%;
   margin-left:25%;
-  margin-top: -15%;
+  margin-top: -18%;
   border-radius: 10px;
   background-color: white;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
@@ -414,26 +414,26 @@ color: var(--text2-color);
   box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
   transition: 3s;
   }
-  .animated_card1:hover{
+  .red{
     position: relative;
     width: 50%;
     height: 50%;
     margin-left: 25%;
-    margin-top:-100%;
-    margin-bottom:5%;
+    margin-top:-180%;
+    margin-bottom:0%;
     border-radius: 10px;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
     transition: 3s;
     }
 
-  .animated_card2:hover{
+  .red2{
     position: relative;
     width: 50%;
     height: 50%;
     margin-left: 25%;
-    margin-top:-100%;
-    margin-bottom:50%;
+    margin-top:-180%;
+    margin-bottom:0%;
     border-radius: 10px;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
