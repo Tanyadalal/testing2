@@ -19,7 +19,10 @@ body {
     background-color: var(--bkg-color);
     transition: background-color 1s ease, color 2s ease;
 }
-
+a{
+  text-decoration: none;
+  color:var(--text-color) ;
+}
 .hamburger {
   width: 50px;
   height: 50px;
@@ -111,6 +114,7 @@ h2 {
 --bkg-color: #C7976F;
 --cont-color:#b26e4b ;
 --cont2-color:#ECC4A0;
+--cont3-color:#b26e4b;
 }
 .dark-mode {
 --text-color: #EBD2BC;
@@ -120,6 +124,7 @@ h2 {
 --bkg-color: #966045;
 --cont-color: #66422d;
 --cont2-color:#966045;
+--cont3-color:#966045;
 }
 .space {
 
@@ -213,6 +218,88 @@ opacity: 1;
   color: var(--text2-color);
 }
 
+#education{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  padding:5%;
+}
+
+.card1{
+  position: relative;
+  width: 40%;
+  height: 90%;
+  border-radius: 10px;
+  background-color: var(--cont3-color);
+  display: inline-block;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+.animated_card1{
+  position: absolute;
+  width: 25%;
+  height: 10%;
+  margin-left: 4.5%;
+  margin-top: 33%;
+  border-radius: 10px;
+  background-color: white;
+  display: inline-block;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  transition: 3s;
+}
+
+.card2{
+  position: relative;
+    width: 40%;
+    height: 90%;
+    margin-left: 25%;
+    border-radius: 10px;
+    background-color: var(--cont3-color);
+    display: inline-block;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+.animated_card2{
+position: absolute;
+width: 25%;
+height: 10%;
+margin-left: 61%;
+margin-top: 33%;
+border-radius: 10px;
+background-color: white;
+display: inline-block;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+transition: 3s;
+}
+
+.animated_card1:hover{
+  position: absolute;
+  width: 25%;
+  height: 90%;
+  margin-left: 4.5%;
+  margin-top: -4%;
+  border-radius: 10px;
+  background-color: white;
+  display: inline-block;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  transition: 3s;
+}
+
+.animated_card2:hover{
+  position: absolute;
+width: 25%;
+height: 90%;
+margin-left: 61%;
+margin-top: -4%;
+border-radius: 10px;
+background-color: white;
+display: inline-block;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+transition: 3s;
+}
+
+
+
 
 @media only screen and (max-width:768px)
 {
@@ -278,4 +365,78 @@ margin-top: 5%;
 font-size: 15px;
 color: var(--text2-color);
 }
+#education{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  padding-left:10%;
+  padding-right:10%;
+  display: inline-block;
+}
+.card1{
+  position: relative;
+  width: 80%;
+  height: 45%;
+  border-radius: 10px;
+  background-color: var(--cont3-color);
+  display: inline-block;
+  margin-left:10%;
+}
+.card2{
+  position: relative;
+    width: 80%;
+    height: 45%;
+    margin-top: 5%;
+    border-radius: 10px;
+    background-color: var(--cont3-color);
+    display: inline-block;
+    margin-right:10%;
+    margin-left:10%;
+}
+.animated_card1{
+  position: relative;
+  width: 50%;
+  height: 10%;
+  margin-left:25%;
+  margin-top: -15%;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+.animated_card2{
+  position: relative;
+  width: 50%;
+  height: 10%;
+  margin-left: 25%;
+  margin-top:-18%;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  transition: 3s;
+  }
+  .animated_card1:hover{
+    position: relative;
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    margin-top:-100%;
+    margin-bottom:5%;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    transition: 3s;
+    }
+
+  .animated_card2:hover{
+    position: relative;
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    margin-top:-100%;
+    margin-bottom:50%;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    transition: 3s;
+    }
 }
