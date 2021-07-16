@@ -20,9 +20,7 @@ function toggle() {
     const observer = new IntersectionObserver(handleIntersect, options);
   
     const space = document.querySelector(".space");
-    const text = document.querySelector(".text");
     observer.observe(space);
-    observer.observe(text);
   
   }
 
@@ -131,3 +129,11 @@ const next = () => {
 }
 
 next()
+function expandcard(e)
+{
+  e.classList.toggle('red')
+}
+function expandcard2(e2)
+{
+  e2.classList.toggle('red2')
+}
