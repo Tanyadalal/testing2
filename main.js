@@ -131,9 +131,20 @@ const next = () => {
 next()
 function expandcard(e)
 {
-  e.classList.toggle('red')
+  var element = document.getElementsByClassName('image1')[0];
+  if(element)
+  {
+  element.classList.toggle('hide');
+}
+  e.classList.toggle('red');
+
 }
 function expandcard2(e2)
 {
+  var element = document.getElementsByClassName('image2')[0];
+  if(element)
+  {
+  element.classList.toggle('hide');
+}
   e2.classList.toggle('red2')
 }
