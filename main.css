@@ -457,4 +457,12 @@ color: var(--text2-color);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
     transition: 1s;
     }
+  .image1{
+
+  margin-left: 10%;
+ 
+}
+.image2{
+  margin-left: 10%;
+}
 }
