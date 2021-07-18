@@ -148,3 +148,7 @@ function expandcard2(e2)
 }
   e2.classList.toggle('red2')
 }
+
+
+
+
