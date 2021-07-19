@@ -234,7 +234,12 @@ opacity: 1;
   height: 90%;
   border-radius: 10px;
   background-color: var(--cont3-color);
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 1%;
+  padding-bottom: 5%;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
 }
 
@@ -260,7 +265,12 @@ opacity: 1;
     margin-left: 25%;
     border-radius: 10px;
     background-color: var(--cont3-color);
-    display: inline-block;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 1%;
+  padding-bottom: 5%;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
 }
 .animated_card2{
@@ -299,23 +309,7 @@ display: inline-block;
 box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
 transition: 1s;
 }
-.image1{
-  margin-top: 2%;
-  margin-left: 30%;
-  transition: 500ms;
-}
-.image2{
 
-  margin-top: 2%;
-  margin-left: 30%;
-  transition: 500ms;
-}
-.image1:hover{
-    margin-top: 6%;
-}
-.image2:hover{
-  margin-top: 6%;
-}
 
 .hide{
   display: none;
@@ -335,8 +329,17 @@ transition: 1s;
   margin-top:4% ;
 }
 
+.codetext1{
+  color: var(--text2-color);
+  font-family: monospace;
+  font-size: 120%;
+}
 
-
+.codetext2{
+  color: var(--text2-color);
+  font-family: monospace;
+  font-size: 120%;
+}
 
 
 
@@ -511,22 +514,16 @@ color: var(--text2-color);
   color: var(--text2-color);
   transition: 200ms;
 }
-.image1{
-  margin-top: 0%;
-  margin-left: 0%;
-  transition: 500ms;
+.codetext1{
+  color: var(--text2-color);
+  font-family: monospace;
+  font-size: 50%;
 }
-.image2{
 
-  margin-top: 0%;
-  margin-left: 0%;
-  transition: 500ms;
-}
-.image1:hover{
-    margin-top: 0%;
-}
-.image2:hover{
-  margin-top: 0%;
+.codetext2{
+  color: var(--text2-color);
+  font-family: monospace;
+  font-size: 50%;
 }
 
 }
