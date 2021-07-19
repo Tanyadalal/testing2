@@ -456,9 +456,9 @@ color: var(--text2-color);
     .red{
     position: relative;
     width: 80%;
-    height: 50%;
+    height: 40%;
     margin-left: 10%;
-    margin-top:-145%;
+    margin-top:-125%;
     margin-bottom:0%;
     border-radius: 10px;
      flex-direction: column;
@@ -487,9 +487,9 @@ color: var(--text2-color);
   .red2{
     position: relative;
     width: 80%;
-    height: 50%;
+    height: 40%;
     margin-left: 10%;
-    margin-top:-145%;
+    margin-top:-125%;
     margin-bottom:0%;
     border-radius: 10px;
     
@@ -506,7 +506,7 @@ color: var(--text2-color);
   .inner_text{
     font-size:65%;
   position: relative;
-  
+  margin-left:0%;
   font-family: Playfair;
   color: var(--text2-color);
   transition: 200ms;
