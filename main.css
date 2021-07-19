@@ -517,13 +517,13 @@ color: var(--text2-color);
 .codetext1{
   color: var(--text2-color);
   font-family: monospace;
-  font-size: 50%;
+  font-size: 70%;
 }
 
 .codetext2{
   color: var(--text2-color);
   font-family: monospace;
-  font-size: 50%;
+  font-size: 70%;
 }
 
 }
