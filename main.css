@@ -428,7 +428,7 @@ color: var(--text2-color);
   position: relative;
     width: 80%;
     height: 45%;
-    margin-top: 5%;
+    margin-top: 15%;
     border-radius: 10px;
     background-color: var(--cont3-color);
    display:flex;
