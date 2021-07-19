@@ -418,7 +418,10 @@ color: var(--text2-color);
   height: 45%;
   border-radius: 10px;
   background-color: var(--cont3-color);
-  display: inline-block;
+  display:flex;
+   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin-left:10%;
 }
 .card2{
@@ -428,53 +431,102 @@ color: var(--text2-color);
     margin-top: 5%;
     border-radius: 10px;
     background-color: var(--cont3-color);
-    display: inline-block;
+   display:flex;
+   flex-direction: column;
+  justify-content: center;
+  align-items: center;
     margin-right:10%;
     margin-left:10%;
 }
 .animated_card1{
   position: relative;
-  width: 50%;
+  width: 80%;
   height: 10%;
-  margin-left:25%;
+  margin-left:10%;
   margin-top: -18%;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
   box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
   transition: 1s;
 }
+    .red{
+    position: relative;
+    width: 80%;
+    height: 50%;
+    margin-left: 10%;
+    margin-top:-145%;
+    margin-bottom:0%;
+    border-radius: 10px;
+     flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    transition: 1s;
+    }
+  
 .animated_card2{
   position: relative;
-  width: 50%;
+  width: 80%;
   height: 10%;
-  margin-left: 25%;
+  margin-left: 10%;
   margin-top:-18%;
   border-radius: 10px;
-
+  display:flex;
+   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
   transition: 1s;
   }
-  .red{
-    position: relative;
-    width: 50%;
-    height: 50%;
-    margin-left: 25%;
-    margin-top:-180%;
-    margin-bottom:0%;
-    border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
-    transition: 1s;
-    }
 
   .red2{
     position: relative;
-    width: 50%;
+    width: 80%;
     height: 50%;
-    margin-left: 25%;
-    margin-top:-180%;
+    margin-left: 10%;
+    margin-top:-145%;
     margin-bottom:0%;
     border-radius: 10px;
+    
+   flex-direction: column;
+  justify-content: center;
+  align-items: center;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
     transition: 1s;
     }
+  .inner_text:hover{
+  font-size: 65%;
+ margin-left:0;
+}
+  .inner_text{
+    font-size:65%;
+  position: relative;
+  
+  font-family: Playfair;
+  color: var(--text2-color);
+  transition: 200ms;
+}
+.image1{
+  margin-top: 0%;
+  margin-left: 0%;
+  transition: 500ms;
+}
+.image2{
+
+  margin-top: 0%;
+  margin-left: 0%;
+  transition: 500ms;
+}
+.image1:hover{
+    margin-top: 0%;
+}
+.image2:hover{
+  margin-top: 0%;
+}
+
 }
