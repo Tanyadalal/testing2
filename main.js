@@ -131,22 +131,34 @@ const next = () => {
 next()
 function expandcard(e)
 {
-  var element = document.getElementsByClassName('image1')[0];
+  var element = document.getElementsByClassName('codetext1')[0];
+  var element1 = document.getElementsByClassName('inner_text1')[0];
   if(element)
   {
   element.classList.toggle('hide');
 }
   e.classList.toggle('red');
 
+  if(element1)
+  {
+  element1.classList.toggle('show');
 }
+}
+
 function expandcard2(e2)
 {
-  var element = document.getElementsByClassName('image2')[0];
+  var element = document.getElementsByClassName('codetext2')[0];
+  var element1 = document.getElementsByClassName('inner_text2')[0];
   if(element)
   {
   element.classList.toggle('hide');
 }
-  e2.classList.toggle('red2')
+  e2.classList.toggle('red2');
+
+  if(element1)
+  {
+  element1.classList.toggle('show1');
+}
 }
 
 
