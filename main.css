@@ -540,7 +540,7 @@ color: var(--text2-color);
   color: var(--text2-color);
   transition: 3s;
 display: none;
-  font-size:75%;
+  font-size:72%;
   font-family: monospace;
 }
 .inner_text1{
