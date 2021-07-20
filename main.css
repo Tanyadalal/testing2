@@ -539,11 +539,13 @@ color: var(--text2-color);
   margin-left:5%;
   color: var(--text2-color);
   transition: 3s;
-}
-.inner_text1,.inner_text2{
-  display: none;
-  font-size:70%;
+display: none;
+  font-size:75%;
   font-family: monospace;
+}
+.inner_text1{
+  margin-left:12%;
+  
 }
 
 .show,.show1{
