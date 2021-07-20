@@ -314,13 +314,21 @@ transition: 1s;
 .hide{
   display: none;
 }
-.inner_text{
+.inner_text,.inner_text1,.inner_text2{
   position: relative;
   margin-top: 5%;
   margin-left:22%;
   font-family: Playfair;
   color: var(--text2-color);
-  transition: 200ms;
+  transition: 3s;
+}
+.inner_text1,.inner_text2{
+  display: none;
+  font-family: monospace;
+}
+
+.show,.show1{
+  display:block;
 }
 
 .inner_text:hover{
@@ -503,11 +511,11 @@ color: var(--text2-color);
     transition: 1s;
     }
   .inner_text:hover{
-  font-size: 65%;
+  font-size: 70%;
  margin-left:0;
 }
   .inner_text{
-    font-size:65%;
+    font-size:70%;
   position: relative;
   margin-left:0%;
   font-family: Playfair;
