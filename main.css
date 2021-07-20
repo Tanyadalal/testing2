@@ -540,11 +540,11 @@ color: var(--text2-color);
   color: var(--text2-color);
   transition: 3s;
 display: none;
-  font-size:72%;
+  font-size:71%;
   font-family: monospace;
 }
 .inner_text1{
-  margin-left:12%;
+  margin-left:10%;
   
 }
 
