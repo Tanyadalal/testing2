@@ -533,5 +533,21 @@ color: var(--text2-color);
   font-family: monospace;
   font-size: 70%;
 }
+.inner_text1,.inner_text2{
+  position: relative;
+  margin-top: 5%;
+  margin-left:22%;
+  font-family: Playfair;
+  color: var(--text2-color);
+  transition: 3s;
+}
+.inner_text1,.inner_text2{
+  display: none;
+  font-size:40%;
+  font-family: monospace;
+}
 
+.show,.show1{
+  display:block;
+}
 }
