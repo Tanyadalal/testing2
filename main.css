@@ -543,7 +543,7 @@ color: var(--text2-color);
 }
 .inner_text1,.inner_text2{
   display: none;
-  font-size:40%;
+  font-size:70%;
   font-family: monospace;
 }
 
