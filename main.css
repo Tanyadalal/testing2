@@ -641,7 +641,7 @@ display: none;
 p{
   position: realtive;
   font-family: Moontime;
-  font-size: 500%;
+  font-size: 250%;
   color: var(--text2-color);
   margin-left: 5%;
   margin-top:-5%;
