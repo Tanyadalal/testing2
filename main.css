@@ -616,12 +616,13 @@ display: none;
   border-radius: 10px;
  margin-left: 7.5%;
  margin-right: 7.5%;
+  margin-top:-10%;
   margin-bottom: -40%;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
 
 }
 .icons{
-  position: absolute;
+  position: relative;
   
 }
 .techbox1{
@@ -642,7 +643,7 @@ p{
   font-family: Moontime;
   font-size: 500%;
   color: var(--text2-color);
-  margin-left: 0%;
-  margin-top:-10%;
+  margin-left: 5%;
+  margin-top:-5%;
 }
 }
