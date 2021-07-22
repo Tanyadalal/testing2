@@ -623,7 +623,7 @@ display: none;
 }
 .icons{
   position: absolute;
-  margin-top:-10%;
+  margin-top:-5%;
   
 }
 .techbox1{
@@ -644,7 +644,7 @@ p{
   font-family: Moontime;
   font-size: 250%;
   color: var(--text2-color);
-  margin-left: 5%;
+  margin-left: 20%;
   margin-top:-5%;
 }
 }
