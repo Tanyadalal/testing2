@@ -385,10 +385,24 @@ transition: 1s;
     background-color: var(--anim-color);
     margin-top:50%;
     font-family: Playfair;
-    font-size: 80%;
+    font-size: 95%;
     color: var(--text2-color);
+    z-index: 2;
 }
 
+
+.techbox1 a{
+  color: var(--text2-color);
+  text-decoration: none;
+}
+.techbox1 > div {
+  cursor: pointer;
+  transition: transform 140ms;
+
+}
+.techbox1 > div:hover {
+  transform: scale(0.9);
+}
 
 p{
   position: absolute;
@@ -398,6 +412,9 @@ p{
   margin-left: 35%;
 }
 
+#largetext{
+  margin-left: 25%;
+}
 
 @media only screen and (max-width:768px)
 {
@@ -647,7 +664,7 @@ p{
   margin-left: 25%;
   margin-top:-5%;
 }
-P1{
+#largetext{
    margin-left:14%;
 }
 }
