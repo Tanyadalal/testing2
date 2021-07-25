@@ -737,7 +737,7 @@ p{
   
   #mypic{
 
-   Width:30%;
+   Width:20%;
     Height:50%;
 
 }
@@ -772,7 +772,7 @@ p{
   width: 20%;
   float: right;
   margin: 10px 10px 10px 10px;
-  font-size:180% ;
+  font-size:160% ;
   font-family: Kalam-bold;
   color: var(--text2-color);
 }
