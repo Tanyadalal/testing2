@@ -6,6 +6,15 @@
   font-family: 'Playfair';
   src: url(fonts/PlayfairDisplay-Regular.ttf);
 }
+@font-face {
+  font-family: 'Kalam';
+  src: url(fonts/Kalam-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Kalam-bold';
+  src: url(fonts/Kalam-Bold.ttf);
+}
 
 * {
   box-sizing: border-box;
@@ -423,15 +432,15 @@ p{
 }
 
 #lines{
-  width: 40%;
+  width: 35%;
   height: 5px;
   border-radius: 10px;
-  background-color: var(--text2-color);
-  margin-left: 2%;
-  margin-top: 7%;
+  background-color: #412a1c;
+  margin-left: 5%;
+  margin-top: 2%;
   font-family: Playfair;
-  font-size: 400%;
-  color: var(--text2-color);
+  font-size: 350%;
+  color: #412a1c;
 }
 #mypic{
   margin-left: 2%;
@@ -441,12 +450,24 @@ p{
 
 }
 .aboutmebody{
-  height: 80%;
+  height: 40%;
   width: 100%;
   padding: 2%;
   display: flex;
-
+  font-family: Kalam;
+  overflow: hidden;
+  font-size: 110%;
 }
+
+#aboutline{
+  width: 20%;
+  float: right;
+  margin: 10px 10px 10px 10px;
+  font-size:200% ;
+  font-family: Kalam-bold;
+  color: var(--text2-color);
+}
+
 
 @media only screen and (max-width:768px)
 {
@@ -718,7 +739,7 @@ p{
   margin-top: 7%;
   font-family: Playfair;
   font-size: 100%;
-  color: var(--text2-color);
+  color: #412a1c;
 }
 #largetext{
    margin-left:14%;
