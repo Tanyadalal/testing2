@@ -698,10 +698,17 @@ p{
 }
   #mypic img{
     width:60%;
-    height:60%;
+    height:65%;
     margin-left:10%;
   }
   
+  #mypic{
+
+   Width:40%;
+    Height:40;
+
+}
+
   #lines{
   width: 40%;
   height: 2px;
