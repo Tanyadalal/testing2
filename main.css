@@ -435,12 +435,12 @@ p{
   width: 35%;
   height: 5px;
   border-radius: 10px;
-  background-color: #412a1c;
+  background-color: black;
   margin-left: 5%;
   margin-top: 2%;
   font-family: Playfair;
   font-size: 350%;
-  color: #412a1c;
+  color: black;
 }
 #mypic{
   margin-left: 2%;
@@ -457,6 +457,7 @@ p{
   font-family: Kalam;
   overflow: hidden;
   font-size: 110%;
+  color: var(--text2-color);
 }
 
 #aboutline{
@@ -745,12 +746,12 @@ p{
   width: 40%;
   height: 2px;
   border-radius: 10px;
-  background-color: var(--text2-color);
+  background-color: black;
   margin-left: 2%;
   margin-top: 7%;
   font-family: Playfair;
   font-size: 100%;
-  color: #412a1c;
+  color: black;
 }
 #largetext{
    margin-left:14%;
