@@ -468,7 +468,9 @@ p{
   font-family: Kalam-bold;
   color: var(--text2-color);
 }
-
+#abouticons{
+  margin-right: 5%;
+}
 
 
 
@@ -767,6 +769,7 @@ p{
   overflow: hidden;
   font-size: 100%;
 }
+
 
 #aboutline{
   width: 20%;
