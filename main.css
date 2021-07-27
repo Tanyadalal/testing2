@@ -142,13 +142,13 @@ h2 {
 --box-color:#EBD2BC;
 --box2-color:#EBD2BC;
 }
-.space {
+.space , .space1 , .space2, .space3, .space4{
 
 transform: translateY(40%);
 opacity: 0;
 transition: all 900ms;
 }
-.space.active {
+.space.active, .space1.active, .space2.active, .space3.active, .space4.active {
 transform: translateY(0px);
 opacity: 1;
 }
@@ -512,6 +512,13 @@ p{
   margin-top: -10%;
 }
 
+#bigscreentext, #smallscreentext{
+  width: 100%;
+}
+#smallscreentext{
+  display: none;
+}
+
 
 
 
@@ -864,5 +871,11 @@ body {
     background-color: var(--bkg-color);
     background-image: url(photos/map2.png);
     transition: background-color 1s ease, color 2s ease;
+}
+#bigscreentext{
+  display: none;
+}
+#smallscreentext{
+  display: block;
 }
 }
