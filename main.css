@@ -477,7 +477,7 @@ p{
   margin-right: 5%;
 }
 
-.internbox{
+.internbox, .internbox2{
   display: flex;
   flex-wrap: wrap;
   height: 95%;
@@ -487,7 +487,7 @@ p{
   margin-left: 5%;
   overflow: hidden;
 }
-.internbox img{
+.internbox img, .internbox2 img{
   border-radius: 30px;
 }
 .imagebox{
@@ -496,7 +496,7 @@ p{
   height: 50%;
 }
 
-.internbox h4{
+.internbox h4 , .internbox2 h4{
   color: var(--content-color);
   font-family: monospace;
   font-size: 130%;
@@ -504,7 +504,7 @@ p{
   position: relative;
   margin-top: -10%;
 }
-.internbox h5{
+.internbox h5 , .internbox2 h5{
   color: var(--content-color);
   font-family: monospace;
   margin-left:10%;
@@ -823,8 +823,8 @@ p{
 .internbox{
   display: block;
   flex-wrap: none;
-  height: 30%;
-  width: 100%;
+  height: 40%;
+  width: 80%;
   border-radius: 5px;
   background-color: var(--box-color);
   margin-left: 0%;
@@ -832,14 +832,14 @@ p{
 }
 .imagebox{
   width: 100%;
-  border-radius: 5px;
+  border-radius: 1px;
   height: 50%;
   background-color: #412a1c;
 }
 .internbox h4{
   color: var(--content-color);
   font-family: monospace;
-  font-size: 70%;
+  font-size: 100%;
   margin-left:20%;
   position: relative;
   margin-top: 4%;
@@ -848,8 +848,11 @@ p{
   color: var(--content-color);
   font-family: monospace;
   margin-left:10%;
-  font-size:40%;
+  font-size:70%;
   position: relative;
   margin-top: 0%;
+}
+.internbox2{
+  display: none;
 }
 }
