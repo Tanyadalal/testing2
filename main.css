@@ -26,7 +26,7 @@ body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Ubuntu, "Helvetica Neue", sans-serif;
     background-color: var(--bkg-color);
-    background-image: url(photos/map.jpg);
+    background-image: url(photos/map.png);
     transition: background-color 1s ease, color 2s ease;
 }
 a{
