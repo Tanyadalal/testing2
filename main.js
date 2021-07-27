@@ -20,8 +20,15 @@ function toggle() {
     const observer = new IntersectionObserver(handleIntersect, options);
   
     const space = document.querySelector(".space");
+    const space1 = document.querySelector(".space1");
+    const space2 = document.querySelector(".space2");
+    const space3 = document.querySelector(".space3");
+    const space4 = document.querySelector(".space4");
     observer.observe(space);
-  
+    observer.observe(space1);
+    observer.observe(space2);
+    observer.observe(space3);
+    observer.observe(space4);
   }
 
   function handleIntersect(entries) {
@@ -160,7 +167,6 @@ function expandcard2(e2)
   element1.classList.toggle('show1');
 }
 }
-
 
 
 
