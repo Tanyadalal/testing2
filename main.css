@@ -26,6 +26,7 @@ body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Ubuntu, "Helvetica Neue", sans-serif;
     background-color: var(--bkg-color);
+    background-image: url(photos/map.jpg);
     transition: background-color 1s ease, color 2s ease;
 }
 a{
@@ -125,6 +126,8 @@ h2 {
 --cont2-color:#ECC4A0;
 --cont3-color:#b26e4b;
 --anim-color:#C7976F;
+--box-color:#b26e4b;
+--box2-color:#66422d;
 }
 .dark-mode {
 --text-color: #EBD2BC;
@@ -136,6 +139,8 @@ h2 {
 --cont2-color:#966045;
 --cont3-color:#966045;
 --anim-color:#412a1c;
+--box-color:#EBD2BC;
+--box2-color:#EBD2BC;
 }
 .space {
 
@@ -358,7 +363,7 @@ transition: 1s;
   font-size: 120%;
 }
 
-.tech, .techbox1, .techbox, .aboutme{
+.tech, .techbox1, .techbox, .aboutme, .internship{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -370,7 +375,7 @@ transition: 1s;
 .techbox{
   width: 15%;
   height: 20%;
-  background-color: var(--cont3-color);
+  background-color: var(--box-color);
   border-radius: 10px;
  margin-left: 7.5%;
  margin-right: 7.5%;
@@ -471,6 +476,42 @@ p{
 #abouticons{
   margin-right: 5%;
 }
+
+.internbox{
+  display: flex;
+  flex-wrap: wrap;
+  height: 95%;
+  width: 25%;
+  border-radius: 30px;
+  background-color: var(--box2-color);
+  margin-left: 5%;
+  overflow: hidden;
+}
+.internbox img{
+  border-radius: 30px;
+}
+.imagebox{
+  width: 100%;
+  border-radius: 30px;
+  height: 50%;
+}
+
+.internbox h4{
+  color: var(--content-color);
+  font-family: monospace;
+  font-size: 130%;
+  margin-left:20%;
+  position: relative;
+  margin-top: -10%;
+}
+.internbox h5{
+  color: var(--content-color);
+  font-family: monospace;
+  margin-left:10%;
+  position: relative;
+  margin-top: -10%;
+}
+
 
 
 
@@ -767,7 +808,7 @@ p{
   display: flex;
   font-family: Kalam;
   overflow: hidden;
-  font-size: 100%;
+  font-size: 90%;
 }
 
 
@@ -779,5 +820,36 @@ p{
   font-family: Kalam-bold;
   color: var(--text2-color);
 }
-
+.internbox{
+  display: block;
+  flex-wrap: none;
+  height: 30%;
+  width: 100%;
+  border-radius: 5px;
+  background-color: var(--box-color);
+  margin-left: 0%;
+  
+}
+.imagebox{
+  width: 100%;
+  border-radius: 5px;
+  height: 50%;
+  background-color: #412a1c;
+}
+.internbox h4{
+  color: var(--content-color);
+  font-family: monospace;
+  font-size: 70%;
+  margin-left:20%;
+  position: relative;
+  margin-top: 4%;
+}
+.internbox h5{
+  color: var(--content-color);
+  font-family: monospace;
+  margin-left:10%;
+  font-size:40%;
+  position: relative;
+  margin-top: 0%;
+}
 }
