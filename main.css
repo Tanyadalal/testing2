@@ -823,18 +823,21 @@ p{
 .internbox{
   display: block;
   flex-wrap: none;
-  height: 30%;
+  height: 40%;
   width: 60%;
-  border-radius: 5px;
+  border-radius: 10px;
   background-color: var(--box-color);
   margin-left: 0%;
   
 }
 .imagebox{
   width: 100%;
-  border-radius: 1px;
+  border-radius: 10px;
   height: 50%;
   background-color: #412a1c;
+}
+  .internbox img, .internbox2 img{
+  border-radius: 10px;
 }
 .internbox h4{
   color: var(--content-color);
