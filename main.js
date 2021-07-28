@@ -24,11 +24,13 @@ function toggle() {
     const space2 = document.querySelector(".space2");
     const space3 = document.querySelector(".space3");
     const space4 = document.querySelector(".space4");
+    const space5 = document.querySelector(".space5");
     observer.observe(space);
     observer.observe(space1);
     observer.observe(space2);
     observer.observe(space3);
     observer.observe(space4);
+    observer.observe(space5);
   }
 
   function handleIntersect(entries) {
