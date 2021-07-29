@@ -56,6 +56,12 @@ a{
 .sidebar.active {
   transform: translateX(0%);
 }
+.sidebar a{
+
+    text-decoration: none;
+    color:var(--text-color) ;
+
+}
 
 .main {
   display: flex;
@@ -534,7 +540,7 @@ p{
   overflow: hidden;
   border-radius: 30px;
   background-color: var(--box-color);
-  background-image: url(artbox.png);
+  background-image: url(photos/illustration.jpg);
   padding-left: 20%;
   padding-right: 20%;
   padding-top: 2.5%;
@@ -583,6 +589,10 @@ p{
   font-family: Kalam-bold;
   font-size: 200%;
   color: var(--content-color);
+}
+.art1 a, .art2 a, .art3 a, .art4 a{
+  text-decoration: none;
+  color:var(--text-color) ;
 }
 
 
@@ -948,7 +958,6 @@ body {
   padding-right: 0%;
   padding-bottom: 0%;
   padding-top:20%;
-background-image: url(photos/artbox2.png);
 }
 .art1,.art4{
   
